@@ -25,12 +25,28 @@
 
 }
 
+@font-face {
+    font-family:'Roboto Serif';  
+    font-weight: 100 900;
+    font-style: normal; 
+    font-display: swap;
+    src:url(fonts/RobotoSerif[grad\,opsz\,wdth\,wgth].woff2); 
+    
+}
+
 body {
     max-width: 686px;
     margin: auto;
-    font-family: "Merriweather Sans", sans-serif;
-    font-weight: 400;
+  
  }
+
+ p{ 
+    font-family:'Roboto Serif';  
+    font-weight: 512;
+    font-variation-settings:"wdth" 100, "opsz" 20,  "GRAD" 0
+
+}    
+
 
 h1 {
     font-family: "freightround_probold", Arial, sans-serif;
